@@ -1,0 +1,35 @@
+# --- Секреты ---
+.env
+.env.*
+!.env.example
+
+# --- Виртуальное окружение ---
+.venv/
+venv/
+env/
+
+# --- Python кэш и байткод ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# --- Данные бота (реальные заявки/менеджеры — не для репозитория) ---
+data/
+backups/
+logs/
+*.log
+
+# --- Служебные/временные файлы проекта ---
+result.json
+unknown_managers.json
+
+# --- IDE / редакторы ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- Тесты / покрытие ---
+.pytest_cache/
+.coverage
+htmlcov/
